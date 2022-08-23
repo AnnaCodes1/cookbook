@@ -1,0 +1,143 @@
+
+/*     font-family: 'Bellota', cursive;
+
+    font-family: 'Marck Script', cursive; */
+:root {
+    --sap-green: #4e8535;
+    --taupe: #ae7089;
+    --yellow-green: #c2db76;
+    --blue: #6d78a1
+}
+ 
+/* * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+} */
+ body {
+    margin: 0 auto;
+    background-color: rgb(255, 246, 234);
+    font-family: 'Bellota', cursive;
+    word-spacing: 0.3rem;
+ }
+
+ body a {
+   text-decoration: none;
+ }
+
+ header {
+    font-family:'Bellota', cursive;
+    padding-bottom: 1rem;
+    background-color: var(--yellow-green);
+ }
+
+ h1 {
+    font-family: 'Marck Script', cursive; 
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 0;
+ }
+
+ h1 a {
+    text-decoration: none;
+    color: var(--sap-green);
+ }
+
+ nav {
+    top: 0;
+    position: sticky;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ nav a {
+    text-decoration: none;
+    color: var(--taupe);
+    font-weight: 700;
+ }
+
+ nav a:hover {
+    color: var(--blue);
+ }
+
+ img {
+    width: 270px;
+ }
+ .intro {
+    display: flex;
+    flex: auto;
+    align-items: top;
+    justify-content: space-evenly;
+    padding: 3rem 1rem;
+ }
+ .tips-middle {
+    width: 270px;
+    text-align: left;
+    /* background-image: url(/images/homepage/edited/desk-cut.jpg); */
+ }
+
+ .tips-middle p {
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+ }
+
+ h2 {
+    font-family: 'Marck Script', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    /* padding-bottom: 30px; */
+    color: var(--yellow-green);
+ }
+
+ .special {
+    font-family: 'Marck Script', cursive;
+    font-size: 1.7rem;
+ }
+ 
+
+ h3 {
+    font-family: 'Marck Script', cursive;
+    font-weight: 400;
+    padding-left: 30px;
+    font-size: 1.5rem;
+    color: var(--yellow-green);
+ }
+
+ .secrets {
+    padding: 50px 100px 100px 50px;
+    background-color: var(--blue);
+    color: antiquewhite;
+ }
+
+ /* ALL recipes */
+
+ .meals {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-evenly;
+ }
+.meals li {
+   display: block;
+   padding: 2rem;
+   width: 200px;
+}
+.meals li a{
+   color: var(--blue);
+   font-weight: 700;
+   
+}
+.meals li a:hover {
+   color: var(--taupe);
+}
